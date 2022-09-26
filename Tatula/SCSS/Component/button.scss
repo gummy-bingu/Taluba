@@ -1,0 +1,3 @@
+.btn__violet{
+    @include btnStyle($color-white,$color-purple,$fw-2);
+};

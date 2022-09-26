@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    background-color: transparent;
+    
+    &.sticky{
+        background-color: $color-white;
+        box-shadow: 0 0 10px 0 rgb(204 204 204 / 50%);
+        .navbar__menu{
+            .menu__tabula{
+                li{
+                    margin: 0 25px;
+                    &::after{
+                        bottom: -25px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    .nav__header{
+        display: flex;
+        justify-content: space-between;
+
+        .navbar__brand{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                width: 60px;
+            }
+
+        }
+    }
+}
